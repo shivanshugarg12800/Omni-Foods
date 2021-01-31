@@ -16,12 +16,103 @@ html{
     max-width: 1140px;
     margin: 0 auto;
 }
-header{
-    background-image: url("../Contents/hero.jpg");
+
+/* ------------------HEADINGS----------------- */
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;   /* it is the 200% of the base size we declared above*/
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+/* ---------------BUTTONS----------------------*/
+
+.btn:link,
+.btn:visited{
+    display: inline-block; /* a tag is inline by default, but we can make it block using inline block*/
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 10px;
+}
+.btn-ghost:link,   /* link is the normal state and visited is the state when we have visited that link*/
+.btn-ghost:visited{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+} 
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+}
+.btn-full:hover,
+.btn-full:active {
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+/*------------------------------------------ */
+/*              HEADER                        */
+/* ----------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url("../Contents/hero.jpg");
     background-size: cover;
-    background-position:center;
+    background-position: center;
     height: 100vh;
 }
-h1{
-    margin: 00;
+
+.hero-text-box {
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 30px;
+}
+
+.main-nav{
+    float: right;
+    list-style-type: none;
+    margin-top: 55px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #fff;
+    font-size: 90%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
 }
