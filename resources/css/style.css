@@ -79,10 +79,14 @@ h3{
 }
 .icon-small {
     display:inline-block;
-    padding: 0;
+    font-size: 120%;
     color: #e67e22;
     text-align: center;
     margin-right: 15px;
+    /* for alignment */
+    line-height: 120%;
+    vertical-align:middle ;
+    margin-top: -4px;
 }
 
 /* ---------------PARAGRAPHS----------------------*/
@@ -278,4 +282,17 @@ header {
 }
 .city-feature{
     margin-bottom: 10px;
+}
+.city-feature a:link,
+.city-feature a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+.city-feature a:hover,
+.city-feature a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
 }
