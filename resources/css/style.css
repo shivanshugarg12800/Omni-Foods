@@ -296,3 +296,43 @@ header {
     color: #555;
     border-bottom: 1px solid transparent;
 }
+
+/*------------------------------------------ */
+/*       CUSTOMERS                          */
+/* ----------------------------------------- */
+.section-testi{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(../Contents/back-customers.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+blockquote{
+    padding: 2%;
+    line-height: 145%;
+    font-style: italic;
+    position: relative;
+    margin-top: 40px;
+}
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+
+}
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 25px;
+}
+cite img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
