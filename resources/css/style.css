@@ -407,3 +407,74 @@ input[type=checkbox]{
 }
 /* to remove the browser added borders on boxes */
 *:focus{outline: none;}
+
+/*------------------------------------------ */
+/*         FOOTER                           */
+/* ----------------------------------------- */
+
+footer{
+    padding: 50px;
+    background-color: #333;
+    font-size: 80%;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.social-links{
+    list-style: none;
+    float:right;
+}
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    color: rgb(199, 198, 198);
+    border: 0;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: wheat;
+}
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
+}
+footer p{
+    text-align: center;
+    color:rgb(199, 198, 198);
+    margin-top: 30px;
+}
+.fb,
+.tweet,
+.google,
+.insta{
+    transition: color 0.2s;
+}
+.fb:hover,
+.fb:active{
+    color: #4267B2;
+}
+.tweet:hover,
+.tweet:active {
+    color: #1DA1F2;
+}
+.google:hover,
+.google:active {
+    color: #DB4437;
+}
+.insta:hover,
+.insta:active {
+    color: #E1306C;
+}
