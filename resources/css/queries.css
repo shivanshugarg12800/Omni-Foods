@@ -48,13 +48,91 @@
        font-size: 80%;
        margin-bottom: 8px;
    }
+   .plan-box{
+       width: 100%;
+       margin-left: 0;
+   }
+   .plan-price{
+       font-size: 200%;
+       font-weight: 300;
+   }
+   .plan-box ul li{
+       font-size: 85%;
+   }
+   .contact-form {
+       width: 80%;
+   }
+   footer {
+       padding: 30px;
+       background-color: #333;
+       font-size: 80%;
+   }
+   .social-links li a:link,
+   .social-links li a:visited {
+       font-size: 120%;
+   }
 
 }
 
 
 
 /* this is for the little small screens less then 767px */
-@media only screen and (max-width :767px) {
+@media only screen and (max-width :763px) {
+    body{
+        font-size: 16px;
+    }
+    section{padding: 30px 0;}
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    }
+    .col{width: 100%;}
+    .main-nav{display: none;}
+
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+    .steps-box:first-child{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .plan-box {
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 5px;
+    }
+    .plan-price {
+        font-size: 300%;
+        font-weight: 100;
+    }
+
+    .plan-box ul li {
+        font-size: 90%;
+    }
+    footer {
+        padding: 20px;
+        font-size: 70%;
+    }
+    .foot,
+    .links{
+        text-align: center;
+    }
+    .footer-nav,
+    .social-links{
+        float: none;
+    }
+    .social-links{
+        margin-top: 20px;
+    }
+
+
+    .footer-nav ul li{
+        margin: 0 10px;
+    }
 
 }
 
@@ -62,5 +140,17 @@
 
 /* this is for the small screens less then 480px */
 @media only screen and (max-width :480px){
+    section {
+        padding: 25px 0;
+    }
+    h1 {
+        font-size: 150%;
+    }
 
+    h2 {
+        font-size: 120%;
+    }
+    .contact-form{
+        width: 100%;
+    }
 }

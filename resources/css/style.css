@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html,
+body{
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Ariel', 'sans-serif';
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
     
 }
 .clearfix {zoom: 1}
@@ -423,7 +425,7 @@ footer{
 
 .footer-nav{
     list-style: none;
-    float: left;
+    float:left;
 }
 .social-links{
     list-style: none;
