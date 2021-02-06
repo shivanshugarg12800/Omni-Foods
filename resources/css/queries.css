@@ -1,0 +1,66 @@
+
+
+/* this is for the large screens less then 1200px */
+@media only screen and (max-width :1200px) {
+.hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+}
+.row{
+    padding: 0 2%;
+}
+}
+
+
+/* this is for the little large screens less then 1024px */
+@media only screen and (max-width :1023px) {
+   body{font-size: 18px;}
+   .long-copy{
+       width: 80%;
+       margin-left: 10%;
+   }
+
+   .steps-box{
+       margin-top: 10px;
+   }
+   .steps-box:last-child{
+       margin-top: 10px;
+   }
+   .works-step {
+       margin-bottom: 40px;
+   }
+   .works-step:last-of-type{
+       margin-bottom: 60px;
+   }
+   .app-screen{
+    width: 50%;   
+   }
+   .btn-app img {
+       height: 40px;
+       width: auto;
+       margin-right: 10px;
+   }
+   .icon-small{
+       width: 20px;
+       margin-right: 10px;
+   }
+   .city-feature{
+       font-size: 80%;
+       margin-bottom: 8px;
+   }
+
+}
+
+
+
+/* this is for the little small screens less then 767px */
+@media only screen and (max-width :767px) {
+
+}
+
+
+
+/* this is for the small screens less then 480px */
+@media only screen and (max-width :480px){
+
+}
