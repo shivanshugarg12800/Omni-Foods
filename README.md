@@ -3,7 +3,7 @@
 <p><br></p>
 
 <p><strong><em>First of all, here is a link of the website. I hope you like it as much as I do :)</em></strong></p>
-<a href="" rel="nofollow" target="_blank"><strong><em>Omni Foods( coming soon )</em></strong></a><br>
+<a href="" rel="nofollow" target="_blank"><strong><em>https://shivanshugarg12800.github.io/Omni-Foods/</em></strong></a><br>
 
 <p><br></p>
 
